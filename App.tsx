@@ -16,7 +16,7 @@ import { Login } from './pages/Login';
 // Layout wrapper for protected routes
 const ProtectedLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <div className="flex min-h-screen bg-gray-50 font-sans">
+    <div className="flex min-h-screen bg-slate-50 font-sans">
       <Sidebar />
       <div className="flex-1 flex flex-col ml-64">
         <Header />
